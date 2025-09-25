@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+/* Quicksand */
+#bgColor{
+    background-image: url("../assets/bg.png");
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-decoration: none;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+        font-family:Quicksand ;
+}
+.flexLogo{
+    display: flex;
+    gap: 10px;
+}
+
+
+.navbar,.listItem, li, a{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family:Quicksand ;
+        font-size: 20px;
+    font-weight: bold;
+}
+
+.HomeColor{
+    color: orange;
+}
+
+.aboutColor{
+    color: skyblue;
+}
+
+.ficilitiesColor{
+    color: #05D4DF;
+}
+
+.AdmissionColor{
+    color: #5D58EF;
+}
+
+.btn{
+    background-color: orange;
+    color: #FFFFFF;
+       font-size: 20px;
+    font-weight: bold;
+        font-family:Quicksand ;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width:150px ;
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+/* BannerSection-------------------- */
+
+.banner{
+    display:flex ;
+    gap: 20px;
+    margin: 10px;
+}
+.bannerTitle{
+           font-size: 50px;
+    font-weight: bold;
+        font-family:Quicksand ;
+}
+
+.bannerPg{
+           font-size: 20px;
+    font-weight: 500;
+        font-family:Quicksand ;
+}
+
+.bannerImg{
+    margin-top: -20px;
+}
+.EmpoweringColor{
+    color: orange;
+}
+
+.towardsColor{
+    color: skyblue;
+}
+
+.btn2{
+    background-color: black;
+    color: #FFFFFF;
+               font-size: 20px;
+    font-weight: bold;
+        font-family:Quicksand ;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+}
+
+
+/* Main Section--------------------- */
+.mainFlexCard{
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+
+.mainTitle{
+
+                   font-size: 45px;
+    font-weight: bold;
+        font-family:Quicksand ;
+        text-align: center;
+}
+
+.catdTitle{
+                   font-size: 22px;
+    font-weight: bold;
+        font-family:Quicksand ;
+}
+
+.cardpg{
+                       font-size: 15px;
+    font-weight: 500;
+        font-family:Quicksand ;
+}
+.bgColorCard{
+
+  background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(186, 231, 252));
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.bgColorCard-2{
+   background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(247, 212, 212));
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+ 
+}
+.bgColorCard-3{
+          background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(191, 193, 194));
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.read-1{
+    color: #05D4DF;
+                           font-size: 15px;
+    font-weight: 500;
+        font-family:Quicksand ;
+}
+
+.read-2{
+    color: orange;
+                           font-size: 15px;
+    font-weight: 500;
+        font-family:Quicksand ;
+}
+.read-3{
+    color: blueviolet;
+                           font-size: 15px;
+    font-weight: 500;
+        font-family:Quicksand ;
+}
+
+.font-awesome{
+    margin-top: 80px;
+    text-align: center;
+      
+        color: orange;
+        font-size: 25px;
+    gap: 20px;
+
+}
+
+.fa-duotone {
+
+
+  background-color: orange;
+  padding: 15px;
+  border-radius: 20px;
+  color: #FFFFFF;
+}
+
+
+
+/* ours ------------Section---------- */
+.section-grid{
+          background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(248, 230, 180));
+          padding: 10px;
+}
+
+.stories{
+    text-align: center;
+    font-size: 45px;
+    font-weight:bold;
+        font-family:Quicksand ;
+}
+
+
+
+.box-styles{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+    border-radius: 10px;
+  
+}
+
+.heading-Title{
+        font-size: 22px;
+    font-weight:bold;
+        font-family:Quicksand ;
+        margin-left: 20px;
+}
+
+.heading-pg{
+           font-size: 15px;
+    font-weight:600;
+        font-family:Quicksand ;
+        margin-left: 20px;
+}
+
+.heading-hd{
+               font-size: 15px;
+    font-weight:bold;
+        font-family:Quicksand ;
+        margin-left: 20px;
+}
+.img-pic-1{
+    width: 100%;
+    height: 50%;
+}
+.img-pic{
+    width: 100%;
+}
+
+.box{
+    background-color:#f4f3f5;
+    border-radius: 10px;
+  
+}
+#box-1{
+    grid-row: span 4;
+   
+}
+#box-2{
+    grid-column: span 1;
+}
+
+#box-3{
+    
+    grid-column: span 1;
+}
+
+#box-4{
+    grid-column: span 1;
+}
+#box-5{
+        grid-column: span 1;
+}
+
+.main-btn{
+    position: relative;
+    position: absolute;
+    background-color: skyblue;
+    color: white;
+  margin-left: 50px;
+  margin-top: -25px;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+                             font-size: 15px;
+    font-weight: 500;
+        font-family:Quicksand ;
+}
+
+.main-btn-1{
+        position: relative;
+    position: absolute;
+    background-color:#e0b676fb;
+    color: white;
+  margin-left: 50px;
+  margin-top: -25px;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+                             font-size: 15px;
+    font-weight: 500;
+        font-family:Quicksand ;
+}
+
+.view{
+    background-color: black;
+    color: #FFFFFF;
+padding: 10px;
+border: none;
+border-radius: 10px;
+    font-size: 20px;
+    font-weight:bold;
+     font-family:Quicksand ;
+     margin-left: 50%;
+}
